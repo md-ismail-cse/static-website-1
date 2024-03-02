@@ -1,0 +1,201 @@
+/*==================================================
+			Bootstrap 3 Media Queries         
+==================================================*/
+
+
+/* Large Devices (Desktops & Laptops) */
+@media (min-width: 1200px) {
+    /* Ok */
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+@media (max-width: 992px) {
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 7px 0;
+    }
+
+    .navbar-nav > li.active > a {
+        color: #ffd014;
+    }
+
+    .navbar-nav > li > a:hover {
+        color: #ffd014;
+        background: none;
+    }
+
+    .site-nav-wrapper {
+        padding: 0;
+    }
+
+    .navbar-brand img {
+        margin-left: 20px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Ok */
+}
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .about-item-box:nth-child(2) .about-item-desc,
+    .about-item-box:nth-child(3) .about-item-desc {
+        padding-top: 30px;
+    }
+
+    .about-item-box:nth-child(5) .about-item p {
+        padding: 0;
+    }
+
+}
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+@media (max-width: 767px) {
+    .navbar-brand {
+        width: 100px;
+    }
+
+    .navbar-nav {
+        float: none;
+    }
+
+    .navbar-nav li {
+        text-align: center;
+    }
+
+    .navbar-nav li a {
+        display: inline-block;
+    }
+
+    #slider-items {
+        height: 450px;
+    }
+
+    #slider-items .item {
+        height: 450px;
+    }
+
+    .slider-item-wrapper {
+        text-align: center;
+    }
+
+    .slider-item-wrapper h1 {
+        font-size: 28px;
+    }
+
+    .slider-item-wrapper h1 span {
+        font-size: 40px;
+    }
+
+    .carousel-caption {
+        top: 40%;
+    }
+
+    .btn-home {
+        padding: 8px 20px;
+    }
+
+    .about-item-box:nth-child(2) .about-item img,
+    .about-item-box:nth-child(3) .about-item img {
+        top: 0;
+    }
+
+    .about-item-box:nth-child(2) .about-item-desc,
+    .about-item-box:nth-child(3) .about-item-desc {
+        padding-top: 15px;
+    }
+
+    #about-parallax-slider .about-item img {
+        margin: 30px 25px;
+    }
+
+    .about-item-box:nth-child(5) .about-item {
+        text-align: center;
+    }
+
+    #portfolio-items [class*=col-] {
+        padding: 5px 5px;
+    }
+
+    .portfolio-item {
+        height: 200px;
+    }
+
+    .blog-item {
+        margin-bottom: 10px;
+    }
+
+    .about-item-box:nth-child(1) .about-item {
+        padding: 0;
+    }
+
+    .about-item-box:nth-child(5) .about-item p {
+        padding: 0;
+    }
+
+    .blog-item img {
+        height: 250px;
+    }
+
+}
+
+@media (max-width:640px) {
+    section {
+        background-attachment: initial;
+    }
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+@media (max-width: 480px) {
+    /* Ok */
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+@media (max-width: 320px) {
+    .slider-item-wrapper h1 {
+        font-size: 27px;
+    }
+
+    .slider-item-wrapper h1 span {
+        font-size: 35px;
+    }
+
+    .about-item-box:nth-child(1) .about-item h2,
+    .about-item-box:nth-child(5) .about-item h2 {
+        font-size: 25px;
+    }
+
+    .content-box,
+    .about-item-box {
+        padding: 20px 0;
+    }
+
+    .about-item .about-item-heading h3 i {
+        font-size: 40px;
+        margin: 0 10px 0 0;
+    }
+
+    .project-item i {
+        font-size: 50px;
+    }
+
+    .project-item h1 {
+        font-size: 25px;
+    }
+
+    .portfolio-item {
+        height: 150px;
+    }
+
+    .blog-item {
+        padding: 10px 10px;
+    }
+
+    .blog-item img {
+        height: 200px;
+    }
+
+}
